@@ -1,5 +1,5 @@
 import argparse
-from walk_throught_folders import get_excel_files
+from walk_through_folders import get_excel_files
 parser = argparse.ArgumentParser(description="get all xls input")
 parser.add_argument('-i','--input_folder', type=str, dest="ifolder")
 parser.add_argument('-n','--name', default='output.xls', type=str, dest="name")
